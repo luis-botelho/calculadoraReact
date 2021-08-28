@@ -6,6 +6,7 @@ const Numeros = ({ numero,numero2 }) => {
     const setNumero = (number)=>{
         if(numero !== 0){
           numero(number);  
+          console.log(numero);
         }else{
             numero2(number);
         }
